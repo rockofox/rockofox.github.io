@@ -1,0 +1,70 @@
+body {
+  font-family: "Virtue", sans-serif;
+  background: url(https://source.unsplash.com/K0U0eSAjFGU/1600x900) no-repeat
+    center center fixed;
+  background-size: cover;
+  font-weight: 100;
+  padding:0;
+  margin:0;
+}
+.icon {
+filter: drop-shadow(1px 1px 0px #000);
+  
+}
+#menubar {
+  background: lightgray;
+/*   border-radius: 0 0 4px 4px; */
+  padding:2px;
+  border-bottom: 4px black ridge;
+}
+#menubar span {
+  padding-left: 12px;
+}
+#menubar .right {
+  float:right;
+  padding-right:12px;
+}
+.titlebar {
+    margin:0px;
+  border-bottom: 7px lightgray ridge;
+  text-align:center;
+  display: flex;
+      image-rendering: pixelated;
+}
+.windowTitle {
+    padding: 2px 12px 0 12px;
+  font-size:13px;
+}
+.grooves { 
+  flex-grow:1;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQIW2O8fv36fwYkwIghUF9fj6oCXQAAAiQMBcI4HaIAAAAASUVORK5CYII=) repeat;
+    image-rendering: pixelated;
+}
+.window {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: lightgray;
+  border: 7px lightgray ridge;
+  box-shadow: 1px 1px 0px 2px black;
+}
+
+pre {
+  width:700px;
+  height:500px;
+  position:relative;
+  background: white;
+  border: 3px black ridge;
+  font-family: fixedsys;
+  font-size:14px;
+}
+.closeButton {
+  border: 2px #424242 solid;
+/*   box-shadow: white 0px 0px 0px 1px; */
+  width:10px;
+  height:10px;
+  margin-left:10px;
+  margin-top:5px;
+ background: rgb(160,160,160);
+background: radial-gradient(circle, rgba(160,160,160,1) 0%, rgba(205,205,205,1) 95%, rgba(160,160,160,1) 100%); 
