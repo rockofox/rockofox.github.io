@@ -30,4 +30,4 @@ layout: home
 
 
 </pre>
-<a rel="me" href="https://meow.social/@rocko">Mastodon</a>
+<a rel="me" href="https://meow.social/@rocko">Mastodon</a> | <a href="https://github.com/rockofox">Github</a>
