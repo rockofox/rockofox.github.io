@@ -8,6 +8,7 @@ layout: home
   pre {
     line-height: 9pt;
   }
+</style>
 <pre>
 <b>
  /$$$$$$$                      /$$                
