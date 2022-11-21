@@ -1,0 +1,23 @@
+{
+   "subject":"acct:rocko@meow.social",
+   "aliases":[
+      "https:\/\/meow.social\/@rocko",
+      "https:\/\/meow.social\/user\/rocko"
+   ],
+   "links":[
+      {
+         "rel":"http:\/\/webfinger.net\/rel\/profile-page",
+         "type":"text\/html",
+         "href":"https:\/\/meow.social\/@rocko"
+      },
+      {
+         "rel":"self",
+         "type":"application\/activity+json",
+         "href":"https:\/\/meow.social\/user\/rocko"
+      },
+      {
+         "rel":"http:\/\/ostatus.org\/schema\/1.0\/subscribe",
+         "template":"https:\/\/meow.social\/authorize_interaction?uri={uri}"
+      }
+   ]
+}
